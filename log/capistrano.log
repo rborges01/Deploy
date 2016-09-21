@@ -1,0 +1,22 @@
+# Logfile created on 2016-09-21 10:54:24 -0300 by logger.rb/54362
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-09-21 10:54:24 -0300 cap production deploy:setup_config
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-09-21 10:54:33 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [fcff55e6] Running /usr/bin/env mkdir -p /tmp as renato@10.2.45.22
+ DEBUG [fcff55e6] Command: /usr/bin/env mkdir -p /tmp
+  INFO [fcff55e6] Finished in 13.371 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-default-production-renato.nascimento.sh 0.0%
+  INFO Uploading /tmp/git-ssh-default-production-renato.nascimento.sh 100.0%
+  INFO [0bc67fc1] Running /usr/bin/env chmod 700 /tmp/git-ssh-default-production-renato.nascimento.sh as renato@10.2.45.22
+ DEBUG [0bc67fc1] Command: /usr/bin/env chmod 700 /tmp/git-ssh-default-production-renato.nascimento.sh
+  INFO [0bc67fc1] Finished in 0.019 seconds with exit status 0 (successful).
+  INFO [b864a180] Running /usr/bin/env git ls-remote --heads 10.2.45.22 as renato@10.2.45.22
+ DEBUG [b864a180] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-default-production-renato.nascimento.sh" ; /usr/bin/env git ls-remote --heads 10.2.45.22 )
+ DEBUG [b864a180] 	fatal: '10.2.45.22' does not appear to be a git repository
+ DEBUG [b864a180] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
