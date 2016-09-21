@@ -1,8 +1,14 @@
 source 'https://rubygems.org'
 
 # Gem de instalacao do capistrano
-gem 'capistrano'
+gem 'capistrano_colors'
+gem 'json'
+gem 'tdi'
+
+gem 'capistrano', '2.15.5' 
+gem 'net-ssh', '2.6.7' 
 gem 'capistrano-ext'
+
 # Gem para convercao de moeda
 gem 'money'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

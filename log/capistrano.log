@@ -20,3 +20,8 @@
 
 Please make sure you have the correct access rights
 and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-09-21 17:44:44 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [8235d9e2] Running /usr/bin/env mkdir -p /tmp as renato@10.2.45.83
+ DEBUG [8235d9e2] Command: /usr/bin/env mkdir -p /tmp
