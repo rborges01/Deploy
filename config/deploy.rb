@@ -8,7 +8,7 @@ set :password, 'P@assw0rd01'
 set :domain, '10.2.45.83'
 set :mongrel_port, '22'
 set :mongrel_nodes, "4"
-set :rails_env,     "production"
+set :rails_env,     "teste"
 set :server_hostname, 'puppetclient'
 set :git_account, 'renato01'
 set :scm_passphrase,  Proc.new { Capistrano::CLI.password_prompt('P@assw0rd01') }
